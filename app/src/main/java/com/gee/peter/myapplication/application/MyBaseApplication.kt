@@ -9,11 +9,9 @@ import com.tencent.tinker.loader.shareutil.ShareConstants
  *  desc :
  */
 open class MyBaseApplication: TinkerApplication{
-    val type:Int=0
-    val applicationName:String="com.gee.peter.myapplication.application.AppApplication"
     constructor(applicationName:String):
             super(
-                ShareConstants.TINKER_ENABLE_ALL, "$applicationName",
+                ShareConstants.TINKER_ENABLE_ALL, applicationName,
                 "com.tencent.tinker.loader.TinkerLoader", false)
 
 

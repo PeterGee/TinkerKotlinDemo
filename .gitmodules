@@ -1,0 +1,3 @@
+[submodule "TInkerDemo"]
+	path = TInkerDemo
+	url = https://github.com/PeterGee/TInkerDemo
